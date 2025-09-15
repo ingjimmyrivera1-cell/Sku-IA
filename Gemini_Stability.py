@@ -21,6 +21,14 @@ stability_api = client.StabilityInference(
     verbose=True,
     engine="stable-diffusion-xl-1024-v1-0"
 )
+# Introducción
+## Problemática
+"""La generación manual de catálogos de productos textiles es un proceso lento y costoso, especialmente para pequeñas empresas que manejan inventarios grandes. Esto incluye escribir descripciones atractivas y crear imágenes profesionales, lo que puede tomar días o semanas.
+
+## Solución
+Este proyecto utiliza IA para automatizar esta tarea. Google Gemini genera descripciones con un prompt optimizado, mientras que Stability AI crea imágenes realistas. Los prompts usan la técnica de few-shot para garantizar consistencia y calidad.
+"""
+## Prompt de texto-texto (Gemini)
 
 # Lista de SKUs (ejemplo)
 skus = [

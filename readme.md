@@ -1,4 +1,4 @@
-# Proyecto de Generación de Imágenes y Descripciones
+# Proyecto de Generación de Imágenes y Descripciones: IA para Catálogos de Productos Textiles
 
 Este proyecto genera descripciones de productos y sus imágenes usando la API de Google Gemini y Stability AI. Desarrollado en Google Colab.
 
